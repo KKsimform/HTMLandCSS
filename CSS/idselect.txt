@@ -1,0 +1,9 @@
+=> ID Selector
+=> Use id atrribute 
+=> id is unique within html document
+=> use # key
+
+#gl01{
+    text-align:center;
+    color: white;
+}
