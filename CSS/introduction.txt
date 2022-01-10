@@ -1,1 +1,6 @@
 => Inroduction to css
+/* Selector */                                       
+p{
+    text-align:center;          /* property:value; */
+    color:red;
+}
