@@ -1,0 +1,18 @@
+=>Class Selector
+=> It is select HTML elements with specific class attribute
+=> it's not for unique purpose
+=> . operator to denote class
+ 
+ .name{
+     color:red;
+     font-size:100px;
+ }
+
+ =>class of specific element 
+ p.name{
+     color:blue;
+     font-size:50px;
+ }
+
+ => Universal Selector " * "
+ => Group Selector : HTML elements
