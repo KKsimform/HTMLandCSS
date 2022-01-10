@@ -1,0 +1,3 @@
+=> Inline -- style attribute
+=> Internal  -- <style> element
+=> External  -- <link> element
