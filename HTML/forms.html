@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+   </head>
+   <body style="background-color: cadetblue;">
+       <h1 style="text-align: center;">HTML Form</h1>
+       <form style="text-align: center;" method="POST" action="" autocomplete="on">
+           <label for="fname">First Name:</label>
+           <input type="text" id="fname" name="fname"><br><br>
+           <label for="lname">Last Name:</label>
+           <input type="text" id="lname" name="lname"><br><br>
+
+           <label for="email">Enter Email:</label>
+           <input type="email" id="email" name="email"><br><br>
+
+           <label for="password">Enter Password:</label>
+           <input type="password" id="password" name="password"><br><br>
+
+           <label for="gender">Gender:</label><br>
+           <input type="radio" id="male" name="gender" value="male">
+           <label for="male">Male</label>
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">Female</label>
+           <input type="radio" id="other" name="gender" value="other">
+           <label for="other">Other</label><br><br>
+
+           <label for="lang">Language you known:</label><br>
+           <input type="checkbox" id="english" name="lang" value="english">
+           <label for="english">English</label><br>
+           <input type="checkbox" id="french" name="lang" value="french">
+           <label for="french">French</label><br>
+           <input type="checkbox" id="spanish" name="lang" value="spanish">
+           <label for="spanish">Spanish</label><br><br>
+
+           <label for="country">Which country are you from:</label>
+           <select id="country" name="country">
+               <option value="US">US</option>
+               <option value="France">France</option>
+               <option value="Spain">Spain</option>
+           </select><br><br>
+
+           <label for="review">Rate this form: </label>
+           <input type="range" id="review" name="review" value="reviews"><br><br>
+           <textarea name="message" rows="10" cols="30"> write something here.</textarea><br><br>
+           
+           
+           <button type="button" onclick="alert('data submitted')">Click here after filled form</button>
+           <input type="submit" value="submit">
+           <input type="reset" value="reset">
+
+       </form>
+   </body>
+</html>

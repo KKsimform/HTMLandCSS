@@ -1,0 +1,7 @@
+=>  <!DOCTYPE>
+=> encourage UTF-8 characterset
+=> Support both video & audio both
+=> Only some browser compatible
+=> Vector Graphics supported
+=> Shapes can be drawn
+=> Local storage to store data(Old HTML use cookies)
