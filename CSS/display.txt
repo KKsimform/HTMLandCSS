@@ -1,0 +1,7 @@
+=> Display use how actually element can be view
+=> Box element
+=> Inline element
+=>  To hide elements
+     display:none;
+     or 
+     visibility:hidden;
