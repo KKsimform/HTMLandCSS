@@ -1,0 +1,6 @@
+=> Margin
+=> Border
+=> Padding
+=> Content
+=> Set width with
+    box-sizing: border-box;
