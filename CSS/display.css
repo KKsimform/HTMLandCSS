@@ -1,0 +1,24 @@
+div{
+    width: 100%;
+    background-color: blue;
+}
+span{
+    display: inline;
+}
+.box{
+    display: inline-block;
+    height: 50px;
+    width:50px;
+    margin:5px;
+    
+    background-color: chartreuse;}
+.div1{
+    background-color: rgb(119, 66, 101);
+}
+.none
+{
+    display: none;
+}
+.visible{
+    visibility:hidden;
+}
