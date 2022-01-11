@@ -1,0 +1,30 @@
+.flex-container{
+background-color: chartreuse;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.flex-item{
+    background-color: cyan;
+    border: 2px solid black;
+    width: 200px;
+    margin: 10px;
+
+}
+.item-1{
+    min-height: 100px;
+   order:3;
+
+}
+.item-2{
+    min-height: 200px;
+    order: 1;
+
+}
+.item-3{
+    min-height: 300px;
+    
+    flex-grow: 1;
+    order: 2;
+}
