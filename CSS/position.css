@@ -1,0 +1,21 @@
+.parent{
+    background-color: blue;
+    height: 600px;
+}
+.one{
+    background-color: cadetblue;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  
+}
+.two{
+    background-color: crimson;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.three{
+    background-color: darkgreen;
+    margin-top: 20px;
+    
+}
