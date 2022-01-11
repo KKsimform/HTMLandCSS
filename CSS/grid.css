@@ -1,0 +1,25 @@
+.grid-container{
+    background-color: khaki;
+    display: grid;
+    grid-template-areas: 
+    "Header Header Header Header Header Header"
+    " Section Section Section . . ."
+    " Section Section Section . . . ";
+    grid-gap: 10px;
+   
+    ;
+}
+.item{
+    background-color: lawngreen;
+    border:2px solid red;
+
+    
+}
+.item1{
+    grid-area: Header;
+}
+.item2{
+    grid-area: Section;
+}
+
+
