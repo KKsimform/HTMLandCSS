@@ -17,5 +17,5 @@
 .three{
     background-color: darkgreen;
     margin-top: 20px;
-    
+    position: sticky;
 }
